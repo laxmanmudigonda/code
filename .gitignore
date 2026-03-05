@@ -1,0 +1,83 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# ----------------------------
+# Jupyter / Notebooks
+# ----------------------------
+.ipynb_checkpoints
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+
+# ----------------------------
+# Environment variables
+# ----------------------------
+.env
+.env.*
+
+# ----------------------------
+# IDE / Editor
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------
+# OS files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Machine Learning Models
+# ----------------------------
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# If you store models in a folder
+models/
+
+# ----------------------------
+# Data files
+# ----------------------------
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# ----------------------------
+# Streamlit / cache
+# ----------------------------
+.streamlit/
+.cache/
+
+# ----------------------------
+# Node modules (if dashboard uses JS)
+# ----------------------------
+node_modules/
+
+# ----------------------------
+# FastAPI cache
+# ----------------------------
+*.sqlite3
